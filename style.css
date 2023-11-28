@@ -7,6 +7,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.container h1 {
+  color: #0a0;
+}
 .form {
   /* padding-bottom: 20px; */
   display: flex;
