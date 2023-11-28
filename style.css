@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  /* padding-bottom: 20px; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form input {
+  height: 40px;
+  width: 400px;
+  border: solid 2px #060;
+}
+.form button {
+  height: 46px;
+  margin-left: 10px;
+  
+}
+
+.enter {
+  color: #fff;
+  background-color: #0a0;
+  border: solid 2px #060;
+  transition: background-color 0.3s linear;
+}
+
+.enter:hover{
+  background-color: #060;
+}
+
+.alerta {
+  color: red;
+  text-decoration: underline;
+  
+  padding: 20px 0 ;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  max-width: 600px;
+}
